@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.usts.mapper.UserMapper" >
+
+    <resultMap type="user" id="usermapper">
+        <!-- id标签用于绑定主键 -->
+        <!-- <id property="id" column="id"/> -->
+
+        <!-- 使用result绑定普通字段 -->
+        <result property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="pwd" column="pwd"/>
+        <result property="image" column="image"/>
+    </resultMap>
+
+    <select id="findAll" resultType="hashmap">
+        SELECT * FROM USER
+    </select>
+
+    <insert id="addUser" parameterType="user">
+        INSERT INTO USER (id,name,pwd,image) VALUES (#{id},#{name},#{pwd},#{image});
+    </insert>
+
+    <select id="queryUserByArray" resultMap="usermapper">
+        SELECT * FROM USER
+    </select>
+
+
+</mapper>
