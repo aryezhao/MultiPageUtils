@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring-page-by-array (1):war">
+    <output-path>$PROJECT_DIR$/spring-page-by-sql/target</output-path>
+    <root id="archive" name="spring-page-by-array.war">
+      <element id="artifact" artifact-name="spring-page-by-array (1):war exploded" />
+    </root>
+  </artifact>
+</component>

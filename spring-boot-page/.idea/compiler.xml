@@ -7,11 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-page-by-array" />
+        <module name="spring-page-by-pagehelper" />
+        <module name="spring-page-by-rowbounds" />
+        <module name="spring-page-by-sql-mysql" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-boot-page" target="1.5" />
       <module name="spring-page-by-array" target="1.7" />
+      <module name="spring-page-by-array (1)" target="1.7" />
+      <module name="spring-page-by-pagehelper" target="1.7" />
+      <module name="spring-page-by-rowbounds" target="1.7" />
+      <module name="spring-page-by-sql" target="1.7" />
+      <module name="spring-page-by-sql-mysql" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

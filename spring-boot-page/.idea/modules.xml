@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/spring-boot-page.iml" filepath="$PROJECT_DIR$/spring-boot-page.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-page-by-array/spring-page-by-array.iml" filepath="$PROJECT_DIR$/spring-page-by-array/spring-page-by-array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-page-by-pagehelper/spring-page-by-pagehelper.iml" filepath="$PROJECT_DIR$/spring-page-by-pagehelper/spring-page-by-pagehelper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-page-by-rowbounds/spring-page-by-rowbounds.iml" filepath="$PROJECT_DIR$/spring-page-by-rowbounds/spring-page-by-rowbounds.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-page-by-sql-mysql/spring-page-by-sql-mysql.iml" filepath="$PROJECT_DIR$/spring-page-by-sql-mysql/spring-page-by-sql-mysql.iml" />
     </modules>
   </component>
 </project>

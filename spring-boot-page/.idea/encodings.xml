@@ -3,7 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-page-by-array" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-page-by-array" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-page-by-pagehelper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-page-by-rowbounds" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-page-by-sql-mysql" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

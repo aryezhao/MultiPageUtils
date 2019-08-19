@@ -10,6 +10,9 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>spring-page-by-array</module>
+        <module>spring-page-by-sql-mysql</module>
+        <module>spring-page-by-rowbounds</module>
+        <module>spring-page-by-pagehelper</module>
     </modules>
 
 

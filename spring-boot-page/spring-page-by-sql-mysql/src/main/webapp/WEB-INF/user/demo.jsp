@@ -7,12 +7,6 @@
 		<title></title>
 	</head>
 	<body>
-		<!--通过bootstrap的栅格系统布局-->
-
-        <%--private Integer id;--%>
-        <%--private String name;--%>
-        <%--private String pwd;--%>
-        <%--private String image;--%>
 <div class="container">  
   
     <!--标题-->  

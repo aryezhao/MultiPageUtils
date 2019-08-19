@@ -2,12 +2,21 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/spring-page-by-array" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-page-by-pagehelper" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-page-by-rowbounds" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-page-by-sql" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-page-by-sql-mysql" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/spring-page-by-sql/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" project-jdk-name="1.8" project-jdk-type="JavaSDK">
